@@ -54,6 +54,7 @@
             <h4>Looking For</h4>
             <textarea name="lookingFor" rows="6" class="form-control"
             [(ngModel)]="user.lookingFor">
+          </textarea>
             <h4>Interests</h4>
             <textarea name="interests" rows="6" class="form-control"
             [(ngModel)]="user.interests">
@@ -68,9 +69,9 @@
           </form>
 
           </tab>
-          <tab heading="Interests">
-            <h4>Interests</h4>
-            <p>{{user.interests}}</p>
+          <tab heading="Photos">
+            <h4>Photos</h4>
+            <p>{{user.photos}}</p>
           </tab>
           </tabset>
         </div>
